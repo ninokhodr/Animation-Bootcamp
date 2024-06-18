@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.deck {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 15rem;
+  width: 10rem;
+  border-radius: 5px;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  transform-origin: center bottom;
+}
+
+.card:nth-of-type(1) {
+  background-color: red;
+}
+.card:nth-of-type(2) {
+  background-color: orange;
+}
+.card:nth-of-type(3) {
+  background-color: yellow;
+}
+.card:nth-of-type(4) {
+  background-color: green;
+}
+.card:nth-of-type(5) {
+  background-color: blue;
+}
+.card:nth-of-type(6) {
+  background-color: aqua;
+}
+.card:nth-of-type(7) {
+  background-color: purple;
+}
+.card:nth-of-type(8) {
+  background-color: indigo;
+}
+.card:nth-of-type(9) {
+  background-color: violet;
+}
+
+.deck:hover .card:nth-of-type(1) {
+  transform: translateX(4rem) rotateZ(80deg);
+}
+.deck:hover .card:nth-of-type(2) {
+  transform: translateX(3rem) rotateZ(60deg);
+}
+.deck:hover .card:nth-of-type(3) {
+  transform: translateX(2rem) rotateZ(40deg);
+}
+.deck:hover .card:nth-of-type(4) {
+  transform: translateX(1rem) rotateZ(20deg);
+}
+.deck:hover .card:nth-of-type(5) {
+  transform: translateX(0rem) rotateZ(0deg);
+}
+.deck:hover .card:nth-of-type(6) {
+  transform: translateX(-1rem) rotateZ(-20deg);
+}
+.deck:hover .card:nth-of-type(7) {
+  transform: translateX(-2rem) rotateZ(-40deg);
+}
+.deck:hover .card:nth-of-type(8) {
+  transform: translateX(-3rem) rotateZ(-60deg);
+}
+.deck:hover .card:nth-of-type(9) {
+  transform: translateX(-4rem) rotateZ(-80deg);
+}
