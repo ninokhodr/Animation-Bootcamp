@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(167, 149, 234);
+}
+
+.hover-button {
+  padding: 1rem 2rem;
+  background-color: rgb(98, 0, 234);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-button:hover {
+  padding: 1.5rem 2.5rem;
+  background-color: rgb(34, 0, 112);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
